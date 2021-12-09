@@ -3,11 +3,6 @@ import styled from 'styled-components'
 import desktopImgBg from '../../assets/img/image-hero-desktop.jpg'
 import mobileImgBg from '../../assets/img/image-hero-mobile.jpg'
 
-interface NavigationProps {
-    display: string
-}
-
-
 export const Container = styled.header`
     width: 100%;
     height: 400px;
@@ -24,7 +19,6 @@ export const Container = styled.header`
         background: url(${mobileImgBg}) no-repeat left top;
     }
 `
-
 
 export const Content = styled.div`
     width: 100%;
