@@ -52,7 +52,7 @@ export const Header = () => {
                 </ul>
             </Navigation>
         </Content>
-        </Container >
+        </Container>
     )
 }
 
